@@ -6,7 +6,7 @@ import os
 trained_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 #Getting Image Directory
-dir = os.getcwd() + "\\test_img\\test8.jpg" 
+dir = os.getcwd() + "<yourimgname.yourimgext>" 
 
 #Feeding the image to openCV
 img = cv2.imread(dir)
